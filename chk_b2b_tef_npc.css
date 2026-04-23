@@ -1,0 +1,110 @@
+h1 {
+    text-align: center;
+    margin: 200 100px;
+    height: 20px;
+    display: inline;
+    width: 100%;
+    color: whitesmoke;
+    position: absolute;
+}
+
+img {
+    height: 50%;
+    margin: 10px;
+    display: inline;
+}
+
+#header {
+
+    background-color: #0270AF;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 60px;
+
+}
+
+.container{
+    margin-top: 20px;
+    background-color: #0270AF;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    
+}
+
+h2{
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#div-retorno{
+  display: inline;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#div-remessa{    
+    display: inline;
+    width: 100%;
+    margin-top: 140px;
+    
+}
+
+#div-tempo{
+    position: absolute;
+    display: inline;
+    margin-top: 100px;
+}
+
+#img-atualiza {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color:#0270AF;
+}
+
+label, tr.cabecalho {
+  color: whitesmoke;
+  
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #F48127;
+  border-radius: 5px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  
+}
+
+td.fluxo, td.status {
+  display: none;
+}
+
+tr.fluxo {
+  background-color: white;
+}
+
+tr.remessa-ok, tr.retorno-ok {
+  background-color: rgb(153,255,153);
+}
+
+#sel-fluxo{
+  border: 2px solid #F48127;
+  border-radius: 5px;
+  
+}
